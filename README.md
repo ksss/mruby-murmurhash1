@@ -3,7 +3,7 @@
 murmurhash1 digest.
 
 ```ruby
-puts Murmurhash1::digest('mruby') #=> "\xdc\x1f\x3f\x3f"
+puts MurmurHash1::digest('mruby') #=> "\xdc\x1f\x3f\x3f"
 ```
 
 ## Installation
@@ -32,5 +32,5 @@ and exec.
 rake clean
 rake test
 rake
-mruby -e 'puts Murmurhash1::digest("mruby")'
+mruby -e 'puts MurmurHash1::digest("mruby")'
 ```
